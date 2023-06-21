@@ -1,0 +1,50 @@
+/*Sección About*/
+
+section.about {
+  background-color: #eaf2fd;
+  height: 30vh;
+  width: 100vw;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__container {
+  width: 80vw;
+}
+
+.about__title {
+  font-size: 1.4rem;
+}
+
+.about__paragraph {
+  width: 50vw;
+  font-size: 1.2rem;
+}
+
+/*Tablet*/
+/* @media (min-width: 768px) { */
+@media screen and (max-width: 768px) {
+  /* about */
+  .about__container {
+    width: 90vw;
+  }
+
+  .about__paragraph {
+    width: 90vw;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+  /*Sección sobre mi*/
+
+  .about__title {
+    font-size: 1rem;
+  }
+
+  .about__paragraph {
+    font-size: 0.8rem;
+  }
+}
